@@ -1,0 +1,55 @@
+--- Examples/C++/Example1/GCC/Retarget.c.org	2016-10-20 01:52:08.950868004 +0900
++++ Examples/C++/Example1/GCC/Retarget.c	2016-10-20 01:52:16.182930452 +0900
+@@ -17,7 +17,7 @@
+ #include <stdlib.h>
+ #include <errno.h>
+ 
+-#include "..\Serial.h"
++#include "../Serial.h"
+ 
+ 
+ int _isatty (int file) {
+--- Examples/C++/Example2/GCC/Retarget.c.org	2016-10-20 01:52:37.015112776 +0900
++++ Examples/C++/Example2/GCC/Retarget.c	2016-10-20 01:52:45.527188272 +0900
+@@ -17,7 +17,7 @@
+ #include <stdlib.h>
+ #include <errno.h>
+ 
+-#include "..\Serial.h"
++#include "../Serial.h"
+ 
+ 
+ int _isatty (int file) {
+--- Examples/Mail/GCC/Retarget.c.org	2016-10-20 01:35:35.359855216 +0900
++++ Examples/Mail/GCC/Retarget.c	2016-10-20 01:35:46.968029771 +0900
+@@ -17,7 +17,7 @@
+ #include <stdlib.h>
+ #include <errno.h>
+ 
+-#include "..\Serial.h"
++#include "../Serial.h"
+ 
+ 
+ int _isatty (int file) {
+--- Examples/Message/GCC/Retarget.c.org	2016-10-20 01:43:37.963699272 +0900
++++ Examples/Message/GCC/Retarget.c	2016-10-20 01:43:48.407821517 +0900
+@@ -17,7 +17,7 @@
+ #include <stdlib.h>
+ #include <errno.h>
+ 
+-#include "..\Serial.h"
++#include "../Serial.h"
+ 
+ 
+ int _isatty (int file) {
+--- Examples/Semaphore/GCC/Retarget.c.org	2016-10-20 01:40:46.077814633 +0900
++++ Examples/Semaphore/GCC/Retarget.c	2016-10-20 01:40:56.541918752 +0900
+@@ -17,7 +17,7 @@
+ #include <stdlib.h>
+ #include <errno.h>
+ 
+-#include "..\Serial.h"
++#include "../Serial.h"
+ 
+ 
+ int _isatty (int file) {

@@ -1,0 +1,7 @@
+target remote localhost:3333
+load RTX_ex1.elf
+file RTX_ex1.elf
+break main
+break 52
+break 73
+cont
